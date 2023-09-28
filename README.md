@@ -5,6 +5,10 @@
 - Find ```<!-- Paste just before this line -->``` in index.html
 - Copy and edit all the UPPER CASE WORDS in the below code and paste it just above the the commented line.
 - Do not create duplicates of the same character.
+- Create a pull request.
+- After verification merge the pull request to main branch.
+
+  
 ```html
           <div id="c" class="card" >
             <h3 class="card-header">
