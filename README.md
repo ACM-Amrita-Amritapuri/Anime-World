@@ -4,6 +4,7 @@
 - Fork the repo
 - Find ```<!-- Paste just before this line -->``` in index.html
 - Copy and edit all the UPPER CASE WORDS in the below code and paste it just above the the commented line.
+- Do not create duplicates of the same character.
 ```html
           <div id="c" class="card" >
             <h3 class="card-header">
