@@ -18,6 +18,12 @@
             float: right;
             object-fit: cover;
           }
+          #searchInput {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+          }
         </style>
     </head>
     <body>
@@ -30,6 +36,7 @@
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
                 <li class="nav-item"><a href="https://github.com/ACM-Amrita-Amritapuri/Anime-World/graphs/contributors" class="nav-link">Contributors</a></li>
             </ul>
+            <input type="text" id="searchInput" placeholder="Search by Tag">
           </header>
         </div>
         <div class="container"><div class="row">
@@ -87,5 +94,6 @@
           
         <!-- Paste just before this line -->
         </div></div>
+        <script src="./js/search.js"></script>
     </body>
 </html>
