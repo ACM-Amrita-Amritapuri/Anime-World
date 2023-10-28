@@ -1,0 +1,58 @@
+#c{
+    width: 500;
+    margin: 10;
+  }
+  #ch-img{
+    width: 100;
+    height: 100;
+    float: right;
+  }
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .dark-mode #searchInput {
+    background-color: #333;
+    color: white;
+  }
+  .dark-mode .title {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .title {
+    color: black;
+    font-size: 1.5rem;
+  }
+  .dark-mode .card{
+    background-color: #333;
+    color: white;
+  }
+  #dark-mode-toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #555; 
+}
+
+.dark-mode #dark-mode-toggle {
+    background-color: #d2d2d2;
+    color: #333;
+}
+
+.dark-mode #dark-mode-toggle:hover {
+    background-color: #5a5a5a;
+    color: #333;
+}
